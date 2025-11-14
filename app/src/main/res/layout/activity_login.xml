@@ -77,13 +77,13 @@
 
     <EditText
         android:id="@+id/edtPassword"
+        android:inputType="textPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="24dp"
         android:background="@android:color/transparent"
         android:hint="Password"
-        android:inputType="textPassword"
         android:paddingBottom="5dp"
         app:layout_constraintStart_toEndOf="@id/iconPassword"
         app:layout_constraintEnd_toEndOf="parent"
@@ -188,7 +188,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/txtRegister"
+        android:id="@+id/tvRegister"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="116dp"
@@ -200,6 +200,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:clickable="true"
+        android:focusable="true"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
